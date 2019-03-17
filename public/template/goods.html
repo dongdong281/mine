@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="css/goods.css">
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body>
+    <header>
+        <div id="me">
+            <ul>
+                <li>
+                    <a href="">我的订单</a>
+                </li>
+                <li>
+                    <a href="">我的优惠券</a>
+                </li>
+                <li>
+                    <a href="">我的美的</a>
+                </li>
+                <li>
+                    <a href="">会员福利社</a>
+                </li>
+                <li>
+                    <a href="">我的权益</a>
+                </li>
+                <li>
+                    <a href="">我的设置</a>
+                </li>
+            </ul>
+        </div>
+        <div id="cart">
+            <span>立即
+                <a href="">登录</a>
+                查看购物车商品
+            </span>
+        </div>
+        <div id="wx_img">
+                <img src="img/header_qr_app.png" alt="">
+        </div>
+        <div class="inner">
+            <a href="#" class="backImg site_logo" title="美的"></a>
+            <div class="nav_wrap" id="topNavWrap">
+                <ul class="nav">
+                    <li class="item">
+                        <a href="">首页</a>
+                    </li>
+                    <li class="item">
+                        <a href="">商家入驻</a>
+                    </li>
+                    <li class="item">
+                        <a href="">企业采购</a>
+                    </li>
+                    <li class="item">
+                        <a href="">全屋电器套购</a>
+                    </li>
+                    <li class="item">
+                        <a href="">会员福利社</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="opt_wrap" id="optWrap">
+                <div class="opt opt_search">
+                    <i class="backImg opt_img" ></i>
+                    
+                </div>
+                <div class="opt opt_wx opt_wx_hover">
+                    <i class="backImg opt_img"></i>
+                    
+                
+                </div>
+                <div class="opt opt_cart">
+                    <i class="backImg opt_img"></i>
+                    <span class="cart_num">0</span>
+                </div>
+                <div class="opt opt_user">
+                    <i class="backImg opt_img"></i>
+                    <span class="user_login_name">登录</span>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <!-- 公告栏-->
+    <div data-midea_mos_id="32,96" class="operation_time" data-time-start="2017/06/28 00:00:00" data-time-end="2019/12/31 23:59:59" style="display: block; font-size: 12px; background: rgb(0, 59, 102); line-height: 16px; color: rgb(255, 255, 255); text-align: center; padding: 4px;">
+        【通知】新疆区域由于交通管制无法正常发货，恢复时间待定
+    </div>
+    <main>
+        <div class="titles">
+            <div class="title cate_bar">
+                <div class="crumb">
+                    <a href="#" class="home_page">首页</a>
+                    >
+                    <a href="#">冰箱</a>
+                </div>
+                <div class="cate_ft">
+                    共
+                    <em class="cate_count">40</em>
+                    件商品
+                </div>
+            </div>
+            <div class="title col_10">
+                <div class="cate_hd">分类:</div>
+                <div class="cate_bd">
+                    <ul class="cate_list">
+                        <li class="cate_item filter_cur">
+                            <a href="#" class="mod">空调</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">冰箱</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">洗衣机</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">厨房小电器</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">厨房大电器</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="title col_10">
+                <div class="cate_hd">机型:</div>
+                <div class="cate_bd">
+                    <ul class="cate_list">
+                        <li class="cate_item filter_cur">
+                            <a href="#" class="mod">全部空调</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">单门冰箱</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">双门冰箱</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">多门冰箱</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">对开门冰箱</a>
+                        </li>
+                        <li class="cate_item">
+                            <a href="#" class="mod">三门冰箱</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content_wrap" id="searchWrap">
+            <ul class="search_list">
+                <!-- <li class="hproduct">
+                    <a href="javascript:void(0)" class="cover">
+                        <img src="img/01.jpg" alt="">
+                    </a>
+                    <div class="ft_message">
+                        <span>
+                            ￥
+                            <em>2099.00</em>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0)" class="fn">
+                        啊实打实大多撒所大所大所多阿萨德
+                    </a>
+                    <div class="sell_point">领券立减200元</div>
+                    <div class="buy">
+                        <span>加入购物车</span>
+                    </div>
+                    <div class="item_compare"></div>
+                    <div class="tag">品类日</div>
+                </li> -->
+                
+            </ul>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="ft_inner">
+            <div class="ft_link">
+                <div class="col">
+                    <a href="">
+                        <h3>商城入驻</h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="">
+                        <h3>服务条款</h3>
+                    </a>
+                    </div>
+                <div class="col">
+                    <a href="">
+                        <h3>隐私政策</h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="">
+                        <h3>联系我们</h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="">
+                        <h3>帮助中心</h3>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="">
+                        <h3>服务支持</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="ft_info">
+                <p class="copyright">
+                        Copyright &copy; 1968-2019 广东美的网络科技有限公司
+                        <a href="#">粤ICP备17058257号</a>
+                        <a href="#">
+                            <img src="img/gongan.jpg" alt="">
+                            粤公网安备44060602000243号 
+                        </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="libs/jquery.cookie.js"></script>
+<script src="js/goods.js"></script>
+</html>

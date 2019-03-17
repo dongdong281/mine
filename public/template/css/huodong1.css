@@ -1,0 +1,204 @@
+body {
+  height: 100%; }
+
+.floor {
+  position: relative;
+  z-index: 2; }
+  .floor .floor_content {
+    position: absolute;
+    width: 1000px;
+    margin-left: -500px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    z-index: 3; }
+
+#f1 {
+  height: 732px; }
+  #f1 div.floor1 {
+    height: 200px;
+    background-image: url(../img/n1.webp);
+    background-position: 50% 0; }
+  #f1 div.floor2 {
+    height: 200px;
+    background-image: url(../img/n2.webp);
+    background-position: 50% 0; }
+  #f1 div.floor3 {
+    height: 200px;
+    background-image: url(../img/n3.webp);
+    background-position: 50% 0; }
+  #f1 div.floor4 {
+    height: 132px;
+    background-image: url(../img/n4.webp);
+    background-position: 50% 0; }
+
+#f2 {
+  height: 168px; }
+  #f2 .floor1 {
+    height: 168px;
+    background-image: url(../img/n5.webp);
+    background-position: 50% 0; }
+
+#f3 {
+  height: 600px; }
+  #f3 .floor1 {
+    height: 600px;
+    background-image: url(../img/n6.webp);
+    background-position: 50% 0; }
+
+#f4 {
+  height: 150px; }
+  #f4 .floor1 {
+    height: 150px;
+    background-image: url(../img/n7.webp);
+    background-position: 50% 0; }
+
+#f5 {
+  height: 366px; }
+  #f5 .floor1 {
+    height: 366px;
+    background-image: url(../img/n8.webp);
+    background-position: 50% 0; }
+
+#f6 {
+  height: 394px; }
+  #f6 .floor1 {
+    height: 394px;
+    background-image: url(../img/n9.webp);
+    background-position: 50% 0; }
+
+#f6 {
+  height: 204px; }
+  #f6 .floor1 {
+    height: 204px;
+    background-image: url(../img/n10.webp);
+    background-position: 50% 0; }
+
+#f7 {
+  height: 526px; }
+  #f7 .floor1 {
+    height: 526px;
+    background-image: url(../img/n11.webp);
+    background-position: 50% 0; }
+
+#f8 {
+  height: 696px; }
+  #f8 .floor1 {
+    height: 696px;
+    background-image: url(../img/n12.webp);
+    background-position: 50% 0; }
+
+#f9 {
+  height: 128px; }
+  #f9 .floor1 {
+    height: 128px;
+    background-image: url(../img/n13.webp);
+    background-position: 50% 0; }
+
+#f10 {
+  height: 506px; }
+  #f10 .floor1 {
+    height: 506px;
+    background-image: url(../img/n14.webp);
+    background-position: 50% 0; }
+
+#f11 {
+  height: 486px; }
+  #f11 .floor1 {
+    height: 486px;
+    background-image: url(../img/n15.webp);
+    background-position: 50% 0; }
+
+#f12 {
+  height: 264px; }
+  #f12 .floor1 {
+    height: 264px;
+    background-image: url(../img/n16.webp);
+    background-position: 50% 0; }
+
+#f13 {
+  height: 196px; }
+  #f13 .floor1 {
+    height: 196px;
+    background-image: url(../img/n17.webp);
+    background-position: 50% 0; }
+  #f13 .black_cover {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.6;
+    position: fixed;
+    z-index: 998;
+    display: none; }
+  #f13 .floor_content .right_nav {
+    position: fixed;
+    z-index: 100;
+    width: 114px;
+    right: 0;
+    border-radius: 6px;
+    background: #000;
+    top: 178px;
+    display: none; }
+    #f13 .floor_content .right_nav .right_bd {
+      width: 114px;
+      overflow: hidden; }
+      #f13 .floor_content .right_nav .right_bd ul#rightNav1 .title p {
+        font-size: 18px;
+        height: 21px;
+        line-height: 21px;
+        text-align: center;
+        margin: 20px 0 14px 0;
+        color: #fff; }
+      #f13 .floor_content .right_nav .right_bd ul#rightNav1 .bd {
+        position: relative; }
+        #f13 .floor_content .right_nav .right_bd ul#rightNav1 .bd a {
+          padding: 0;
+          display: block;
+          height: 30px;
+          line-height: 27px;
+          font-size: 14px;
+          cursor: pointer;
+          margin: 0 7px;
+          color: #fff;
+          border-top: 1px solid #fff;
+          text-align: center; }
+      #f13 .floor_content .right_nav .right_bd ul#rightNav1 .bd:hover {
+        background-color: #fff; }
+        #f13 .floor_content .right_nav .right_bd ul#rightNav1 .bd:hover .a_nav {
+          color: #000; }
+      #f13 .floor_content .right_nav .right_bd ul#rightNav1 .back {
+        margin-top: 22px;
+        margin-bottom: 22px;
+        cursor: pointer; }
+        #f13 .floor_content .right_nav .right_bd ul#rightNav1 .back a {
+          display: block; }
+          #f13 .floor_content .right_nav .right_bd ul#rightNav1 .back a i {
+            display: block;
+            position: relative;
+            height: 6px;
+            bottom: 15px;
+            left: 47px; }
+            #f13 .floor_content .right_nav .right_bd ul#rightNav1 .back a i span {
+              display: block;
+              width: 0;
+              height: 0;
+              border-top: 8px solid transparent;
+              border-left: 8px solid transparent;
+              border-right: 8px solid transparent;
+              border-bottom: 8px solid #fff; }
+          #f13 .floor_content .right_nav .right_bd ul#rightNav1 .back a em {
+            display: block;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            color: #fff; }
+
+            #f13 .floor_content .right_nav .right_bd ul#rightNav1 .bd a.active {
+  background-color: #fff;
+  color: #000; }

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <header>
+        <div id="me">
+            <ul>
+                <li>
+                    <a href="">我的订单</a>
+                </li>
+                <li>
+                    <a href="">我的优惠券</a>
+                </li>
+                <li>
+                    <a href="">我的美的</a>
+                </li>
+                <li>
+                    <a href="">会员福利社</a>
+                </li>
+                <li>
+                    <a href="">我的权益</a>
+                </li>
+                <li>
+                    <a href="">我的设置</a>
+                </li>
+            </ul>
+        </div>
+        <div id="cart">
+            <span>立即
+                <a href="">登录</a>
+                查看购物车商品
+            </span>
+        </div>
+        <div id="wx_img">
+                <img src="img/header_qr_app.png" alt="">
+        </div>
+        <div class="inner">
+            <a href="index.html" class="backImg site_logo" title="美的"></a>
+            <div class="nav_wrap" id="topNavWrap">
+                <ul class="nav">
+                    <li class="item" id="it">
+                        <a href="">首页</a>
+                    </li>
+                    <li class="item">
+                        <a href="">商家入驻</a>
+                    </li>
+                    <li class="item">
+                        <a href="">企业采购</a>
+                    </li>
+                    <li class="item">
+                        <a href="">全屋电器套购</a>
+                    </li>
+                    <li class="item">
+                        <a href="">会员福利社</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="opt_wrap" id="optWrap">
+                <div class="opt opt_search">
+                    <i class="backImg opt_img" ></i>
+                    
+                </div>
+                <div class="opt opt_wx opt_wx_hover">
+                    <i class="backImg opt_img"></i>
+                    
+                
+                </div>
+                <div class="opt opt_cart">
+                    <i class="backImg opt_img"></i>
+                    <span class="cart_num">0</span>
+                </div>
+                <div class="opt opt_user">
+                    <i class="backImg opt_img"></i>
+                    <span class="user_login_name">登录</span>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="cart_top">
+            <div class="cart_top_inner clear">
+                <h2 class="title">购物车</h2>
+                <div class="cart_top_address">
+                    <span>
+                        配送至:广州市白云区白云镇>
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="cart_body">
+            <div class="cart_detail">
+                <ul class="cart_title_wrap">
+                    <li class="choose_all">
+                        <input type="checkbox" class="choose">全选
+                    </li>
+                    <li class="cart_product">商品图片</li>
+                    <li class="cart_info">商品信息</li>
+                    <li class="cart_price">单价</li>
+                    <li class="cart_num1">数量 </li>
+                    <li class="cart_tatal">小计</li>
+                    <li class="cart_operation">操作</li>
+                </ul>
+            </div>
+            <div class="item_detial">
+                <!-- <ul class="cart_title_wrap">
+                    <li class="choose_all">
+                        <input type="checkbox" id="choose" checked="checked">全选
+                    </li>
+                    <li class="cart_product">
+                        <img src="img/category_10002.png" alt="">
+                    </li>
+                    <li class="cart_info">商品信息</li>
+                    <li class="cart_price">1099.00</li>
+                    <li class="cart_num">
+                       <div id="editNum" class="clear">
+                           <span class="reduce">-</span>
+                            <input type="text" id="nums" value="1">
+                            <span class="plus">+</span>
+                       </div>
+                    </li>
+                    <li class="cart_tatal">小计</li>
+                    <li class="cart_operation">
+                        <em>删除</em>
+                    </li>
+                </ul> -->
+               
+            </div>
+            <div class="cart_bottom_wrap">
+                <div class="choose_all" style="line-height: 60px;margin-left:18px;width:300px;">
+                    <!-- <input type="checkbox" class="choose">
+                    <span>全选</span> -->
+                </div>
+                <div class="total" style="margin-right:30px;position:absolute;right:160px;top:0;line-height:60px">
+                    <span>
+                        合计:￥
+                        <span class="totalPrice">0</span>
+                    </span>
+                </div>
+                <div class="buy" style="font-size: 18px; position: absolute;right: 0;bottom: 0;width:160px;height:60px;line-height:60px;text-align: center;background: #f60;color:#fff;">
+                    去结算
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="libs/jquery.cookie.js"></script>
+<script src="js/cart.js"></script>
+</html>

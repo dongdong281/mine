@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="css/public.css">
+    <style>
+        *{margin:0;padding:0;}
+        .hide{display:none !important;}
+        .ico{background-image: url(img/login.png);}
+        .backImg{background-image:url(img/index.png) ;}
+        header{ min-width: 1200px;height: 44px; background: #0092d8; position: relative; z-index:50;}
+        header .site_logo{display: block;width:120px; height:44px;background-position:0 -243px;}
+        .main_wrap{
+            width: 1190px;margin: 0 auto;position: relative;height: 700px;
+        }
+        .main_wrap .logo{
+            position: absolute; right: 520px; top: 66px;
+            width: 560px;height: 485px;line-height: 485px; display: table-cell;
+        }
+        .main_wrap .logo img{    margin: auto;vertical-align: middle;max-height: 485px;}
+        main .copyright{
+            width: 90%;border-top: 1px solid #e0e0e0;margin: 0 auto 30px;padding-top: 15px;color: #999;
+        font-size: 12px;line-height: 12px; height: 12px;font-family: '\5FAE\8F6F\96C5\9ED1';text-align: center;
+        }
+        main .main_wrap .login_wrap{
+            position: absolute;top: 0;right: 0;float: right;width: 300px;padding: 29px 38px 38px;
+        margin: 66px 100px 0px 0px;background-color: #fff; border: 1px solid #d6d6d6; box-shadow: 0 0 4px 0 #d6d6d6;
+        border-radius: 2px; min-height: 412px;
+        }
+        .login_way{padding-bottom: 20px;}
+        .login_way .login_way_tit{margin-bottom: 15px; font-size: 20px;}
+        .login_way .login_way_list{overflow: hidden;position: relative;top: -1px; left: -2px;}
+        .login_way .login_way_list li{float:left;margin-right:24px;}
+        .login_way .login_way_list li a i{display: block;
+        width: 49px; height: 48px; margin: 0 auto; text-indent: -999em ;overflow: hidden;}
+        .login_way .login_way_list li.login_qq a i{background-position: 0 0;}
+        .login_way .login_way_list li.login_wx a{}
+        .login_way .login_way_list li.login_wx a i{background-position: -57px 0;}
+         .login_form_row{    position: relative; clear: both; margin: 10px 0 10px 0;}
+        .login_type{border-top: #eeeeee solid 1px;}
+        .login_form_tit{    margin-bottom: 15px;margin-top: 20px;
+            font-size: 20px;}
+        .login_form_cnt input{    display: block;
+            width: 288px;height:38px;line-height: 38px;  padding-left: 10px; border: 1px solid #c8c8c8; border-radius: 2px; background: transparent;}
+        .login_form_cnt .login_btn{    display: block;  width: 300px;  height: 40px; line-height: 40px;
+            text-align: center; background-color: #0092d8;color: #fff;  margin: 20px 0 17px 0; border: 0;
+             cursor: pointer; border-radius: 2px;}
+        .login_links a:hover{color:red;}
+        .login_links a.forget{margin-left:180px;}
+        .login_links a.reg{margin-left:20px;}
+        .login_form_tips span{color:#999;}
+        #check{vertical-align: middle;}
+        .login_form_cnt .register_btn{    display: block;  width: 300px;  height: 40px; line-height: 40px;
+            text-align: center; background-color: #0092d8;color: #fff;  margin: 20px 0 17px 0; border: 0;
+             cursor: pointer; border-radius: 2px;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="backImg site_logo" title="美的"></a>
+    </header>
+    <main>
+        <div class="main_wrap">
+            <a href="#" class="logo">
+                <img src="img/logo.webp" alt="">
+            </a>
+            <div class="login_wrap">
+                <div class="login hide">
+                    <div class="login_way">
+                        <div class="login_way_tit">使用合作号登录</div>
+                        <ul class="login_way_list clear">
+                            <li class="login_qq">
+                                <a href="javascript:">
+                                    <i class="ico"></i>
+                                </a>
+                            </li>
+                            <li class="login_wx">
+                                <a href="javascript:">
+                                    <i class="ico"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="login_type login_type1">
+                        <div class="login_form ap_form">
+                            <form action="" method="POST" >
+                                <div class="login_form_tit">账号密码登录</div>
+                                <div class="login_form_row">
+                                    <div class="login_form_cnt">
+                                        <input type="text" id="tel" maxlength="13" name="mobile" placeholder="手机号">
+                                    </div>
+                                </div>
+                                <div class="login_form_row">
+                                    <div class="login_form_cnt">
+                                        <input type="password" id="pass" name="password" placeholder="密码">
+                                    </div>
+                                </div>
+                                <div class="login_form_row">
+                                    <div class="login_form_cnt">
+                                        <a href="javascript:" class="login_btn">登录</a>
+                                    </div>
+                                </div>
+                               <span class="msg"></span>
+                                <div class="login_links clear">
+                                    <a href="javascript:" class="reg">注册</a>
+                                    <a href="javascript:" class="forget">找回密码</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="register">
+                    <div class="login_form reg_form">
+                        <form method="POST">
+                            <div class="login_form_tit">使用手机号注册</div>
+                            <div class="login_form_row">
+                                <div class="login_form_cnt">
+                                    <input type="text" id="tel1" maxlength="13" name="mobile" placeholder="手机号">
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <div class="login_form_cnt">
+                                    <input type="password" id="pass1" name="password" placeholder="密码">
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <div class="login_form_cnt">
+                                    <input type="password" class="pass2" name="password" placeholder="确认密码">
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <div class="login_form_tips">
+                                    <span>
+                                        密码长度必须在8位以上，含大小写字母、数字、特殊符号至少三种
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <div class="login_form_tips">
+                                    <input type="radio" name="check" id="check" checked="checked">
+                                    <span>
+                                        同意
+                                        <a href="javascript:">
+                                            《美的官方商城用户协议》
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="msg"></span>
+                            <div class="login_form_row">
+                                <div class="login_form_cnt">
+                                    <a href="javascript:" class="register_btn">注册</a>
+                                </div>
+                            </div>
+                            <div class="login_links clear">
+                               
+                                <a href="javascript:" class="other_login">已有账号，立即登录</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+                Copyright &copy; 1968-2019 广东美的网络科技有限公司 粤ICP备17058257号
+        </div>
+    </main>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="libs/jquery.cookie.js"></script>
+<script src="js/login.js"></script>
+</html>
